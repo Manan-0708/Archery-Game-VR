@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{2F2304C6-3514-9DA9-E791-773021094B10}</ProjectGuid>
+    <ProjectGuid>{9EC2E9DE-FFCE-C9CC-C0A1-6ABD5EBA8318}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -55,10 +55,13 @@
     <UnityVersion>6000.0.66f2</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-    <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
-    <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
-    <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
+    <Analyzer Include="F:\VR_Work\Archery-Game-VR\Library\PackageCache\org.nuget.microsoft.extensions.logging.abstractions@18bd7e0fc865\analyzers\dotnet\roslyn4.0\cs\Microsoft.Extensions.Logging.Generators.dll" />
+    <Analyzer Include="F:\VR_Work\Archery-Game-VR\Library\PackageCache\org.nuget.system.text.json@4fbd98a0949f\analyzers\dotnet\roslyn4.0\cs\System.Text.Json.SourceGeneration.dll" />
+    <Analyzer Include="D:\unity\6000.0.66f2\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
+    <Analyzer Include="D:\unity\6000.0.66f2\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
+    <Analyzer Include="D:\unity\6000.0.66f2\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
+    <Analyzer Include="F:\VR_Work\Archery-Game-VR\Library\PackageCache\org.nuget.microsoft.codeanalysis.analyzers@bcf103d84432\analyzers\dotnet\cs\Microsoft.CodeAnalysis.Analyzers.dll" />
+    <Analyzer Include="F:\VR_Work\Archery-Game-VR\Library\PackageCache\org.nuget.microsoft.codeanalysis.analyzers@bcf103d84432\analyzers\dotnet\cs\Microsoft.CodeAnalysis.CSharp.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Target\TargetSpawner.cs" />
@@ -137,475 +140,475 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.AIModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.AIModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.ARModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.ARModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.ARModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.AccessibilityModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.AccessibilityModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.AccessibilityModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.AndroidJNIModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.AndroidJNIModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.AndroidJNIModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.AnimationModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.AnimationModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.AnimationModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.AssetBundleModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.AssetBundleModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.AssetBundleModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.AudioModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.AudioModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.AudioModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.ClothModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.ClusterInputModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterInputModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterInputModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.ClusterRendererModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterRendererModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterRendererModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.ContentLoadModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.ContentLoadModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.ContentLoadModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.CrashReportingModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.CrashReportingModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.CrashReportingModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.DSPGraphModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.DSPGraphModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.DSPGraphModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.DirectorModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.DirectorModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.DirectorModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.GIModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.GIModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.GIModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.GameCenterModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.GameCenterModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.GameCenterModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.GraphicsStateCollectionSerializerModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.GraphicsStateCollectionSerializerModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.GraphicsStateCollectionSerializerModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.GridModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.GridModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.GridModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.HierarchyCoreModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.HierarchyCoreModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.HierarchyCoreModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.HotReloadModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.HotReloadModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.HotReloadModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.IMGUIModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.IMGUIModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.IMGUIModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.ImageConversionModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.ImageConversionModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.ImageConversionModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.InputModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.InputModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.InputModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.InputForUIModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.InputForUIModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.InputForUIModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.InputLegacyModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.InputLegacyModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.InputLegacyModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.JSONSerializeModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.JSONSerializeModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.JSONSerializeModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.LocalizationModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.LocalizationModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.LocalizationModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.MarshallingModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.MarshallingModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.MarshallingModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.MultiplayerModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.MultiplayerModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.MultiplayerModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.ParticleSystemModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.ParticleSystemModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.ParticleSystemModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.PerformanceReportingModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.PerformanceReportingModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.PerformanceReportingModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.PhysicsModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.Physics2DModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.Physics2DModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.Physics2DModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.PropertiesModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.PropertiesModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.PropertiesModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.ScreenCaptureModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.ScreenCaptureModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.ScreenCaptureModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.ShaderVariantAnalyticsModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.ShaderVariantAnalyticsModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.ShaderVariantAnalyticsModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.SharedInternalsModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.SharedInternalsModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.SharedInternalsModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.SpriteMaskModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteMaskModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteMaskModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.SpriteShapeModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteShapeModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteShapeModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.StreamingModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.StreamingModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.StreamingModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.SubstanceModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.SubstanceModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.SubstanceModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.SubsystemsModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.SubsystemsModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.SubsystemsModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.TLSModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.TLSModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.TLSModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.TerrainModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.TerrainPhysicsModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainPhysicsModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.TextCoreFontEngineModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.TextCoreTextEngineModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.TextRenderingModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.TextRenderingModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.TextRenderingModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.TilemapModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.TilemapModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.TilemapModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.UIModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.UIModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.UIModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.UIElementsModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.UmbraModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.UmbraModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.UmbraModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.UnityAnalyticsModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.UnityConnectModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.UnityConnectModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.UnityConnectModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.UnityCurlModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.UnityCurlModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.UnityCurlModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.UnityTestProtocolModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.UnityTestProtocolModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestAudioModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestTextureModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestWWWModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.VFXModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.VFXModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.VFXModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.VRModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.VRModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.VRModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.VehiclesModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.VehiclesModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.VehiclesModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.VideoModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.VirtualTexturingModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.VirtualTexturingModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.VirtualTexturingModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.WindModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.XRModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.XRModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEngine.XRModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.AccessibilityModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.AccessibilityModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.AccessibilityModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.AdaptivePerformanceModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.AdaptivePerformanceModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.AdaptivePerformanceModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.BuildProfileModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.BuildProfileModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.BuildProfileModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.CoreBusinessMetricsModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.CoreBusinessMetricsModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.CoreBusinessMetricsModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.CoreModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.DeviceSimulatorModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.DeviceSimulatorModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.DeviceSimulatorModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.DiagnosticsModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.DiagnosticsModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.DiagnosticsModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.EditorToolbarModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.EditorToolbarModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.EditorToolbarModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.EmbreeModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.EmbreeModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.EmbreeModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.GIModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.GIModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.GIModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.GraphViewModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.GraphViewModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.GraphViewModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.GraphicsStateCollectionSerializerModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.GraphicsStateCollectionSerializerModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.GraphicsStateCollectionSerializerModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.GridAndSnapModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.GridAndSnapModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.GridAndSnapModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.GridModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.GridModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.GridModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.InAppPurchasingModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.InAppPurchasingModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.InAppPurchasingModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.LevelPlayModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.LevelPlayModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.LevelPlayModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.MultiplayerModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.MultiplayerModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.MultiplayerModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.Physics2DModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.Physics2DModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.Physics2DModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.PhysicsModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.PhysicsModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.PhysicsModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.PresetsUIModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.PresetsUIModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.PresetsUIModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.PropertiesModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.PropertiesModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.PropertiesModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.QuickSearchModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.QuickSearchModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.QuickSearchModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.SafeModeModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.SafeModeModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.SafeModeModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.SceneTemplateModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.SceneTemplateModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.SceneTemplateModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.SceneViewModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.SceneViewModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.SceneViewModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.ShaderFoundryModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.ShaderFoundryModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.ShaderFoundryModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.SketchUpModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.SketchUpModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.SketchUpModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.SpriteMaskModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.SpriteMaskModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.SpriteMaskModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.SpriteShapeModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.SpriteShapeModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.SpriteShapeModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.SubstanceModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.SubstanceModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.SubstanceModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.TerrainModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.TerrainModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.TerrainModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.TextCoreFontEngineModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreFontEngineModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreFontEngineModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.TextCoreTextEngineModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreTextEngineModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreTextEngineModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.TextRenderingModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.TextRenderingModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.TextRenderingModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.TilemapModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.TilemapModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.TilemapModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.TreeModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.TreeModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.TreeModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.UIAutomationModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.UIAutomationModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.UIAutomationModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.UIBuilderModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.UIBuilderModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.UIBuilderModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.UIElementsModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.UIElementsSamplesModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsSamplesModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsSamplesModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.UmbraModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.UmbraModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.UmbraModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.UnityConnectModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.VFXModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.VFXModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.VFXModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.VideoModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.VideoModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.VideoModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.XRModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.XRModule.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\Managed\UnityEngine\UnityEditor.XRModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
@@ -632,858 +635,1038 @@
       <HintPath>Library\PackageCache\com.unity.collections@aea9d3bd5e19\Unity.Collections.Tests\System.Runtime.CompilerServices.Unsafe\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Microsoft.AspNetCore.SignalR.Common">
+      <HintPath>Library\PackageCache\org.nuget.microsoft.aspnetcore.signalr.common@999bc614832a\lib\netstandard2.0\Microsoft.AspNetCore.SignalR.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Hosting.Abstractions">
+      <HintPath>Library\PackageCache\org.nuget.microsoft.extensions.hosting.abstractions@5b961991add3\lib\netstandard2.1\Microsoft.Extensions.Hosting.Abstractions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Channels">
+      <HintPath>Library\PackageCache\org.nuget.system.threading.channels@999c60a196d4\lib\netstandard2.1\System.Threading.Channels.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging">
+      <HintPath>Library\PackageCache\org.nuget.microsoft.extensions.logging@e4bbef2e615c\lib\netstandard2.1\Microsoft.Extensions.Logging.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.Memory">
+      <HintPath>Library\PackageCache\org.nuget.microsoft.bcl.memory@a9025fd5ee48\lib\netstandard2.1\Microsoft.Bcl.Memory.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces">
+      <HintPath>Library\PackageCache\org.nuget.microsoft.bcl.asyncinterfaces@a8b41f16539e\lib\netstandard2.1\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Connections.Abstractions">
+      <HintPath>Library\PackageCache\org.nuget.microsoft.aspnetcore.connections.abstractions@feefeddaed85\lib\netstandard2.1\Microsoft.AspNetCore.Connections.Abstractions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.SignalR.Client.Core">
+      <HintPath>Library\PackageCache\org.nuget.microsoft.aspnetcore.signalr.client.core@287a6cf12702\lib\netstandard2.1\Microsoft.AspNetCore.SignalR.Client.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.FileProviders.Abstractions">
+      <HintPath>Library\PackageCache\org.nuget.microsoft.extensions.fileproviders.abstractions@6dfc2275c5b9\lib\netstandard2.0\Microsoft.Extensions.FileProviders.Abstractions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions">
+      <HintPath>Library\PackageCache\org.nuget.microsoft.extensions.logging.abstractions@18bd7e0fc865\lib\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Metadata">
+      <HintPath>Library\PackageCache\org.nuget.system.reflection.metadata@935d07b34e5e\lib\netstandard2.0\System.Reflection.Metadata.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="R3">
+      <HintPath>Library\PackageCache\org.nuget.r3@c98887a6d128\lib\netstandard2.1\R3.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ReflectorNet">
+      <HintPath>Library\PackageCache\com.ivanmurzak.unity.mcp@db4854588d25\Plugins\com.IvanMurzak.ReflectorNet\ReflectorNet.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Http.Connections.Common">
+      <HintPath>Library\PackageCache\org.nuget.microsoft.aspnetcore.http.connections.common@f8a0c918171b\lib\netstandard2.0\Microsoft.AspNetCore.Http.Connections.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Http.Connections.Client">
+      <HintPath>Library\PackageCache\org.nuget.microsoft.aspnetcore.http.connections.client@812fbeff852f\lib\netstandard2.1\Microsoft.AspNetCore.Http.Connections.Client.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="McpPlugin.Common">
+      <HintPath>Library\PackageCache\com.ivanmurzak.unity.mcp@db4854588d25\Plugins\com.IvanMurzak.McpPlugin\netstandard2.1\McpPlugin.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Primitives">
+      <HintPath>Library\PackageCache\org.nuget.microsoft.extensions.primitives@5233ca91e215\lib\netstandard2.0\Microsoft.Extensions.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
+      <HintPath>Library\PackageCache\org.nuget.microsoft.extensions.dependencyinjection.abstractions@fee2b3618c56\lib\netstandard2.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Diagnostics.Abstractions">
+      <HintPath>Library\PackageCache\org.nuget.microsoft.extensions.diagnostics.abstractions@070ef718d01b\lib\netstandard2.0\Microsoft.Extensions.Diagnostics.Abstractions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.SignalR.Client">
+      <HintPath>Library\PackageCache\org.nuget.microsoft.aspnetcore.signalr.client@35aa971a7968\lib\netstandard2.0\Microsoft.AspNetCore.SignalR.Client.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding.CodePages">
+      <HintPath>Library\PackageCache\org.nuget.system.text.encoding.codepages@cd3f9f70f07b\lib\netstandard2.0\System.Text.Encoding.CodePages.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection">
+      <HintPath>Library\PackageCache\org.nuget.microsoft.extensions.dependencyinjection@3e7acfd079dd\lib\netstandard2.1\Microsoft.Extensions.DependencyInjection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="McpPlugin">
+      <HintPath>Library\PackageCache\com.ivanmurzak.unity.mcp@db4854588d25\Plugins\com.IvanMurzak.McpPlugin\netstandard2.1\McpPlugin.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.CodeAnalysis">
+      <HintPath>Library\PackageCache\org.nuget.microsoft.codeanalysis.common@34ebd91b67de\lib\netstandard2.0\Microsoft.CodeAnalysis.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.CodeAnalysis.CSharp">
+      <HintPath>Library\PackageCache\org.nuget.microsoft.codeanalysis.csharp@db8bc9eda0cd\lib\netstandard2.0\Microsoft.CodeAnalysis.CSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Pipelines">
+      <HintPath>Library\PackageCache\org.nuget.system.io.pipelines@6fb3978a1eb8\lib\netstandard2.0\System.IO.Pipelines.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.ServerSentEvents">
+      <HintPath>Library\PackageCache\org.nuget.system.net.serversentevents@d4266c93808e\lib\netstandard2.0\System.Net.ServerSentEvents.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations">
+      <HintPath>Library\PackageCache\org.nuget.system.componentmodel.annotations@852d9dc7d0d6\lib\netstandard2.1\System.ComponentModel.Annotations.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encodings.Web">
+      <HintPath>Library\PackageCache\org.nuget.system.text.encodings.web@9b78704b2c61\lib\netstandard2.0\System.Text.Encodings.Web.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.Immutable">
+      <HintPath>Library\PackageCache\org.nuget.system.collections.immutable@1cb871d2ec81\lib\netstandard2.0\System.Collections.Immutable.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Features">
+      <HintPath>Library\PackageCache\org.nuget.microsoft.extensions.features@c39959e905b1\lib\netstandard2.0\Microsoft.Extensions.Features.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Json">
+      <HintPath>Library\PackageCache\org.nuget.system.text.json@4fbd98a0949f\lib\netstandard2.0\System.Text.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.DiagnosticSource">
+      <HintPath>Library\PackageCache\org.nuget.system.diagnostics.diagnosticsource@a3292c942ff2\lib\netstandard2.0\System.Diagnostics.DiagnosticSource.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Abstractions">
+      <HintPath>Library\PackageCache\org.nuget.microsoft.extensions.configuration.abstractions@383429394415\lib\netstandard2.0\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Options">
+      <HintPath>Library\PackageCache\org.nuget.microsoft.extensions.options@40864b2cec51\lib\netstandard2.1\Microsoft.Extensions.Options.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Caching.Abstractions">
+      <HintPath>Library\PackageCache\org.nuget.microsoft.extensions.caching.abstractions@8fc8d18834db\lib\netstandard2.0\Microsoft.Extensions.Caching.Abstractions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.TimeProvider">
+      <HintPath>Library\PackageCache\org.nuget.microsoft.bcl.timeprovider@aa4d9a6bf320\lib\netstandard2.0\Microsoft.Bcl.TimeProvider.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.SignalR.Protocols.Json">
+      <HintPath>Library\PackageCache\org.nuget.microsoft.aspnetcore.signalr.protocols.json@d87bfdf0d432\lib\netstandard2.0\Microsoft.AspNetCore.SignalR.Protocols.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Android.Types">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Android.Gradle">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Gradle.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Gradle.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="netstandard">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Microsoft.Win32.Primitives">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\Microsoft.Win32.Primitives.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\Microsoft.Win32.Primitives.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.AppContext">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.AppContext.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.AppContext.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Buffers">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Buffers.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Buffers.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Collections.Concurrent">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Concurrent.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Concurrent.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Collections">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Collections.NonGeneric">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.NonGeneric.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.NonGeneric.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Collections.Specialized">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Specialized.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Specialized.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.ComponentModel">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.ComponentModel.EventBasedAsync">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.EventBasedAsync.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.EventBasedAsync.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.ComponentModel.Primitives">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.Primitives.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.Primitives.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.ComponentModel.TypeConverter">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.TypeConverter.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.TypeConverter.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Console">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Console.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Console.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Data.Common">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Data.Common.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Data.Common.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Diagnostics.Contracts">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Contracts.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Contracts.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Diagnostics.Debug">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Debug.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Debug.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Diagnostics.FileVersionInfo">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.FileVersionInfo.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.FileVersionInfo.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Diagnostics.Process">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Process.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Process.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Diagnostics.StackTrace">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.StackTrace.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.StackTrace.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Diagnostics.TextWriterTraceListener">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Diagnostics.Tools">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tools.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tools.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Diagnostics.TraceSource">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TraceSource.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TraceSource.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Diagnostics.Tracing">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tracing.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tracing.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Drawing.Primitives">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Drawing.Primitives.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Drawing.Primitives.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Dynamic.Runtime">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Dynamic.Runtime.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Dynamic.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Globalization.Calendars">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Calendars.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Calendars.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Globalization">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Globalization.Extensions">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Extensions.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Extensions.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.IO.Compression">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.IO.Compression.ZipFile">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.ZipFile.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.ZipFile.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.IO">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.IO.FileSystem">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.IO.FileSystem.DriveInfo">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.DriveInfo.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.DriveInfo.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.IO.FileSystem.Primitives">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Primitives.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Primitives.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.IO.FileSystem.Watcher">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Watcher.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Watcher.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.IO.IsolatedStorage">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.IsolatedStorage.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.IsolatedStorage.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.IO.MemoryMappedFiles">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.MemoryMappedFiles.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.MemoryMappedFiles.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.IO.Pipes">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Pipes.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Pipes.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.IO.UnmanagedMemoryStream">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.UnmanagedMemoryStream.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.UnmanagedMemoryStream.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Linq">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Linq.Expressions">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Expressions.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Expressions.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Linq.Parallel">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Parallel.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Parallel.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Linq.Queryable">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Queryable.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Queryable.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Memory">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Memory.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Memory.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Net.Http">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Http.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Http.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Net.NameResolution">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NameResolution.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NameResolution.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Net.NetworkInformation">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NetworkInformation.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NetworkInformation.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Net.Ping">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Ping.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Ping.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Net.Primitives">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Primitives.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Primitives.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Net.Requests">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Requests.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Requests.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Net.Security">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Security.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Security.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Net.Sockets">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Sockets.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Sockets.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Net.WebHeaderCollection">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebHeaderCollection.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebHeaderCollection.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Net.WebSockets.Client">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.Client.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.Client.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Net.WebSockets">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Numerics.Vectors">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Numerics.Vectors.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Numerics.Vectors.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.ObjectModel">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ObjectModel.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ObjectModel.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Reflection.DispatchProxy">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.DispatchProxy.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.DispatchProxy.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Reflection">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Reflection.Emit">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Reflection.Emit.ILGeneration">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.ILGeneration.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.ILGeneration.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Reflection.Emit.Lightweight">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.Lightweight.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.Lightweight.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Reflection.Extensions">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Extensions.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Extensions.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Reflection.Primitives">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Primitives.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Primitives.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Resources.Reader">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Reader.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Reader.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Resources.ResourceManager">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.ResourceManager.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.ResourceManager.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Resources.Writer">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Writer.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Writer.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Runtime.CompilerServices.VisualC">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.CompilerServices.VisualC.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.CompilerServices.VisualC.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Runtime">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Runtime.Extensions">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Extensions.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Extensions.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Runtime.Handles">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Handles.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Handles.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Runtime.InteropServices">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Runtime.Numerics">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Numerics.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Numerics.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Runtime.Serialization.Formatters">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Formatters.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Formatters.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Runtime.Serialization.Json">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Json.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Runtime.Serialization.Primitives">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Primitives.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Primitives.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Runtime.Serialization.Xml">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Xml.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Xml.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Security.Claims">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Claims.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Claims.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Security.Cryptography.Algorithms">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Algorithms.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Algorithms.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Security.Cryptography.Csp">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Csp.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Csp.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Security.Cryptography.Encoding">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Encoding.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Encoding.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Security.Cryptography.Primitives">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Primitives.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Primitives.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Security.Cryptography.X509Certificates">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.X509Certificates.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Security.Principal">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Principal.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Principal.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Security.SecureString">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.SecureString.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.SecureString.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Text.Encoding">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Text.Encoding.Extensions">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.Extensions.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.Extensions.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Text.RegularExpressions">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.RegularExpressions.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.RegularExpressions.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Threading">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Threading.Overlapped">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Overlapped.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Overlapped.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Threading.Tasks">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Threading.Tasks.Extensions">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Extensions.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Extensions.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Threading.Tasks.Parallel">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Parallel.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Parallel.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Threading.Thread">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Thread.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Thread.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Threading.ThreadPool">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.ThreadPool.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.ThreadPool.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Threading.Timer">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Timer.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Timer.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.ValueTuple">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ValueTuple.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ValueTuple.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Xml.ReaderWriter">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.ReaderWriter.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.ReaderWriter.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Xml.XDocument">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XDocument.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XDocument.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Xml.XmlDocument">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlDocument.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlDocument.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Xml.XmlSerializer">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlSerializer.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlSerializer.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Xml.XPath">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Xml.XPath.XDocument">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.XDocument.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.XDocument.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="mscorlib">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\mscorlib.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\mscorlib.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.ComponentModel.Composition">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Core">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Core.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Core.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Data">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Data.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Data.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Drawing">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Drawing.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Drawing.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.IO.Compression.FileSystem">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.IO.Compression.FileSystem.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.IO.Compression.FileSystem.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Net">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Net.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Net.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Numerics">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Numerics.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Numerics.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Runtime.Serialization">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Runtime.Serialization.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Runtime.Serialization.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.ServiceModel.Web">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ServiceModel.Web.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ServiceModel.Web.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Transactions">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Transactions.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Transactions.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Web">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Web.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Web.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Windows">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Windows.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Windows.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Xml">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Xml.Linq">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Linq.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Linq.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Xml.Serialization">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="UnityEditor.UI.Analytics">
-      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.Analytics.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.Runtime.Shared">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.Shared.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.Editor.Shared">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.Shared.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.ShaderGraph.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Multiplayer.Center.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Multiplayer.Center.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.GPUDriven.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.GPUDriven.Runtime.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="PPv2URPConverters">
-      <HintPath>Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Rendering.LightTransport.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Rendering.LightTransport.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.Config.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Config.Runtime.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Multiplayer.Center.Common">
-      <HintPath>Library\ScriptAssemblies\Unity.Multiplayer.Center.Common.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Rendering.LightTransport.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.Rendering.LightTransport.Runtime.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.2D.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.2D.Runtime.dll</HintPath>
+      <HintPath>D:\unity\6000.0.66f2\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Editor.csproj">
-      <Project>{60FA934D-04CE-CC81-B6F1-F9D2A508BB7E}</Project>
+      <Project>{537FEACE-242D-BF48-89F5-86599606EBAE}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.InputSystem.ForUI.csproj">
-      <Project>{C9059AFB-EF1D-E792-C2AD-0A3795E30A43}</Project>
-      <Name>Unity.InputSystem.ForUI</Name>
+    <ProjectReference Include="UnityEditor.UI.Analytics.csproj">
+      <Project>{A90D4205-918C-285F-EFCF-613099F624A9}</Project>
+      <Name>UnityEditor.UI.Analytics</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Searcher.Editor.csproj">
-      <Project>{608EB26A-58D8-A5FD-D074-618E1F3900E7}</Project>
-      <Name>Unity.Searcher.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Rider.Editor.csproj">
-      <Project>{75E4511A-8C75-EA87-EBF1-7017C93F34FE}</Project>
-      <Name>Unity.Rider.Editor</Name>
+    <ProjectReference Include="com.IvanMurzak.Unity.MCP.TestFiles.csproj">
+      <Project>{FBA6B970-3B0C-8859-69CC-859AC0A46E76}</Project>
+      <Name>com.IvanMurzak.Unity.MCP.TestFiles</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.CoreUtils.csproj">
-      <Project>{802B83BE-7000-831A-FBFE-AD915F7A46C2}</Project>
+      <Project>{5FC09629-FB6B-3EB8-9371-6894BE3430D7}</Project>
       <Name>Unity.XR.CoreUtils</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Tutorials.Core.Editor.csproj">
-      <Project>{094DD3AA-5698-FD2B-403F-A05D834747A6}</Project>
+      <Project>{F635A205-57BE-4186-370F-3F300F441E64}</Project>
       <Name>Unity.Tutorials.Core.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.XR.OpenXR.Features.OculusQuestSupport.csproj">
-      <Project>{EE9F4F6B-806C-3886-6227-586EA7F75C6A}</Project>
-      <Name>Unity.XR.OpenXR.Features.OculusQuestSupport</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.XR.ARFoundation.VisualScripting.Editor.csproj">
-      <Project>{26F9D805-5273-020E-2D61-7D72D305E60E}</Project>
+      <Project>{F3A02992-E245-6430-BDBF-BD836937E6BD}</Project>
       <Name>Unity.XR.ARFoundation.VisualScripting.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.XR.ARFoundation.InternalUtils.Editor.csproj">
-      <Project>{0335F649-0406-1AA3-7430-FB718A4C537B}</Project>
-      <Name>Unity.XR.ARFoundation.InternalUtils.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.XR.Hands.Samples.VisualizerSample.csproj">
-      <Project>{183A73D8-C2E5-0BEE-ED0D-FE35BC76A301}</Project>
+      <Project>{7F36EC2E-231F-621A-9D59-8C4E7C133245}</Project>
       <Name>Unity.XR.Hands.Samples.VisualizerSample</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InternalAPIEditorBridge.007.csproj">
-      <Project>{AD39B96F-85AE-450A-B612-6F27117CFD3E}</Project>
+      <Project>{0BD1064E-793E-A427-595F-5F0B20B493A6}</Project>
       <Name>Unity.InternalAPIEditorBridge.007</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj">
-      <Project>{E02C7D5A-3C84-89F4-F879-054CFAB5B304}</Project>
-      <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.csproj">
-      <Project>{9DDE09D2-6F5B-1669-D824-F2B53F8BAD31}</Project>
-      <Name>Unity.XR.OpenXR.Features.RuntimeDebugger.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.XR.Simulation.Editor.csproj">
-      <Project>{82430B51-D03C-4647-0DCF-1ED5C8147656}</Project>
+      <Project>{4BEC0084-DABB-E90F-C9E0-68C7E62D30AB}</Project>
       <Name>Unity.XR.Simulation.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Timeline.Editor.csproj">
-      <Project>{00C09B69-6D1B-04C7-680B-6570565A9894}</Project>
-      <Name>Unity.Timeline.Editor</Name>
+    <ProjectReference Include="Unity.ShaderGraph.Editor.csproj">
+      <Project>{640FC89E-5303-CF6D-23FA-9DBA617ABE92}</Project>
+      <Name>Unity.ShaderGraph.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{54C685FB-8F00-967A-9C94-712D332AF050}</Project>
+      <Project>{C529FB5F-7F3A-930F-25B0-FEC1B2019869}</Project>
       <Name>Unity.Timeline</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.csproj">
-      <Project>{23D565EE-1552-2FF4-E322-87C54F1D8416}</Project>
-      <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Model</Name>
+    <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.csproj">
+      <Project>{1A6D7703-0A51-022C-C60C-3D7E80AD7E35}</Project>
+      <Name>Unity.RenderPipelines.Core.ShaderLibrary</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.csproj">
-      <Project>{9C69DDE1-EF18-8C98-88A9-AF7E8DDDE156}</Project>
+      <Project>{8BB84C17-3172-9C90-BE95-1FD075261451}</Project>
       <Name>Unity.TestTools.CodeCoverage.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Mathematics.Editor.csproj">
-      <Project>{E7DC0A5F-F8F2-EE46-9497-192BC8C019B0}</Project>
-      <Name>Unity.Mathematics.Editor</Name>
+    <ProjectReference Include="Unity.Multiplayer.Center.Editor.csproj">
+      <Project>{A456BBF9-D085-A894-9E68-16614ABA9F6F}</Project>
+      <Name>Unity.Multiplayer.Center.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.AndroidOpenXR.csproj">
+      <Project>{47534108-CF8D-A4E9-A988-50E43EFE0C3A}</Project>
+      <Name>Unity.XR.AndroidOpenXR</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Analytics.Hooks.Editor.csproj">
-      <Project>{A730DCD8-3A22-2020-4588-6A4893897914}</Project>
+      <Project>{A9D72A61-442F-406E-41E9-35488DCBDD46}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Analytics.Hooks.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Performance.Profile-Analyzer.Editor.csproj">
-      <Project>{BCEAEC8D-54CE-899D-66B5-25CFF1F91D35}</Project>
+      <Project>{95EAD84D-E677-624F-26F1-685841CC9586}</Project>
       <Name>Unity.Performance.Profile-Analyzer.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.XR.AndroidOpenXR.csproj">
-      <Project>{D2319A07-0B34-CE30-7380-8150965F9D55}</Project>
-      <Name>Unity.XR.AndroidOpenXR</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.ARFoundation.csproj">
-      <Project>{74B35F6A-3E02-9970-9D90-A3F0C376CC6F}</Project>
-      <Name>Unity.XR.ARFoundation</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEditor.XR.LegacyInputHelpers.csproj">
-      <Project>{2D4B0825-09F9-5181-7AA2-268AA59A93FD}</Project>
-      <Name>UnityEditor.XR.LegacyInputHelpers</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.Hands.Analytics.Hooks.Editor.csproj">
-      <Project>{AB335FFE-F352-1DF1-2AE3-5A352BC2B115}</Project>
-      <Name>Unity.XR.Hands.Analytics.Hooks.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.ARSubsystems.csproj">
-      <Project>{046F725D-CB4E-28E0-AAB9-DF9B9EA3A1A0}</Project>
-      <Name>Unity.XR.ARSubsystems</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Collections.csproj">
-      <Project>{1ED9B854-C753-286E-1A96-D0FB18380EBA}</Project>
-      <Name>Unity.Collections</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.AndroidOpenXR.Editor.csproj">
-      <Project>{62EB3ECA-0CB4-C648-8469-8F9CD14D3A8A}</Project>
-      <Name>Unity.XR.AndroidOpenXR.Editor</Name>
+    <ProjectReference Include="Unity.RenderPipelines.GPUDriven.Runtime.csproj">
+      <Project>{71EE9CE5-DECC-7A56-4A7C-3317491458D2}</Project>
+      <Name>Unity.RenderPipelines.GPUDriven.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARFoundation.InternalUtils.csproj">
-      <Project>{E1C8AFC3-81DE-F259-04A8-1CCB719F1ED8}</Project>
+      <Project>{5B4F6215-0F79-67F1-3A85-75C05A4ECE28}</Project>
       <Name>Unity.XR.ARFoundation.InternalUtils</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.XR.Management.Editor.csproj">
-      <Project>{D0B10A54-559B-901F-8969-AEAE67FDF480}</Project>
-      <Name>Unity.XR.Management.Editor</Name>
+    <ProjectReference Include="com.IvanMurzak.Unity.MCP.Editor.Tests.csproj">
+      <Project>{9535C2F3-8396-256F-1B52-90C1A05A5B87}</Project>
+      <Name>com.IvanMurzak.Unity.MCP.Editor.Tests</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.XR.ARFoundation.VisualScripting.csproj">
-      <Project>{4C6A4D5B-B11D-FC66-890B-CED046CD1D83}</Project>
-      <Name>Unity.XR.ARFoundation.VisualScripting</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.XR.LegacyInputHelpers.csproj">
-      <Project>{E13C54B4-7916-7577-6A60-2EC7158A60B6}</Project>
-      <Name>UnityEngine.XR.LegacyInputHelpers</Name>
+    <ProjectReference Include="PPv2URPConverters.csproj">
+      <Project>{F4009E0F-E886-018E-A33D-F675F2FDA403}</Project>
+      <Name>PPv2URPConverters</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Hands.Editor.csproj">
-      <Project>{F38F5391-60CA-D11C-D69A-C9AA86157322}</Project>
+      <Project>{1514A80E-6015-9501-356B-7F04B12F400B}</Project>
       <Name>Unity.XR.Hands.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.InternalAPIEngineBridge.007.csproj">
-      <Project>{9E20A85E-BBDC-422E-A2D4-2328D42AF0F7}</Project>
-      <Name>Unity.InternalAPIEngineBridge.007</Name>
+    <ProjectReference Include="Unity.RenderPipelines.Universal.Config.Runtime.csproj">
+      <Project>{A591DFF2-7325-7CE1-1207-4AD4F27365D6}</Project>
+      <Name>Unity.RenderPipelines.Universal.Config.Runtime</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.csproj">
-      <Project>{6DC253F6-8B2D-8156-5D2A-CB6ED56E4E2C}</Project>
-      <Name>Unity.XR.OpenXR.Features.OculusQuestSupport.Editor</Name>
+    <ProjectReference Include="Unity.RenderPipelines.Universal.Editor.csproj">
+      <Project>{7BC53613-D4C8-CD9C-478D-EA185EC710FE}</Project>
+      <Name>Unity.RenderPipelines.Universal.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Hands.Analytics.Editor.csproj">
-      <Project>{93830E69-EA71-C54A-60C9-B90A0943A88D}</Project>
+      <Project>{42D75731-1976-5878-B951-4ABB1BE9FF67}</Project>
       <Name>Unity.XR.Hands.Analytics.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Collections.Editor.csproj">
-      <Project>{09E04E9C-B4F6-D46C-158A-F223FBCED8FE}</Project>
+      <Project>{1D555826-4051-F674-0ECD-9A180EACF8D6}</Project>
       <Name>Unity.Collections.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Extensions.Unity.PlayerPrefsEx.Editor.Tests.csproj">
+      <Project>{B584B793-EAC4-549C-8A61-4FA750E15FF1}</Project>
+      <Name>Extensions.Unity.PlayerPrefsEx.Editor.Tests</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj">
+      <Project>{0FE5909C-1DF3-D78A-F106-A0A2B2BC8175}</Project>
+      <Name>Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEngine.SpatialTracking.csproj">
-      <Project>{6E0D7068-1BA4-527C-8CC1-1F6A17061ECD}</Project>
+      <Project>{2C5B2067-C6F6-73A6-DEDB-6D35C41B5A75}</Project>
       <Name>UnityEngine.SpatialTracking</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.XR.OpenXR.Features.MetaQuestSupport.Editor.csproj">
-      <Project>{DBBCBB75-2EA5-B431-A8D7-9CE59F20A4E8}</Project>
-      <Name>Unity.XR.OpenXR.Features.MetaQuestSupport.Editor</Name>
+    <ProjectReference Include="com.IvanMurzak.Unity.MCP.Runtime.csproj">
+      <Project>{6771FDDD-9E99-F26C-C94C-96668611DD12}</Project>
+      <Name>com.IvanMurzak.Unity.MCP.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.OpenXR.Features.ConformanceAutomation.csproj">
-      <Project>{4CE5D0B8-22C5-7FA5-6A62-907CD28E8D15}</Project>
+      <Project>{76C69890-4184-B1AF-DD8A-7A3CF59336AB}</Project>
       <Name>Unity.XR.OpenXR.Features.ConformanceAutomation</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Hands.csproj">
-      <Project>{7C000837-4FB2-430D-45E1-D7EFBC003792}</Project>
+      <Project>{21D5A1E0-6C87-FD54-C7EA-ED4676162E95}</Project>
       <Name>Unity.XR.Hands</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj">
-      <Project>{648B748D-2785-AE8B-CE67-C05B973D8624}</Project>
-      <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.csproj">
-      <Project>{F01B3A25-8896-B401-C02A-C7B0082DC0D3}</Project>
+      <Project>{6BC254BB-D506-A38D-8535-03C3F2F0EECE}</Project>
       <Name>Unity.XR.Management</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.csproj">
+      <Project>{4C01ACE1-083C-FA6B-85F5-FE3CDF106661}</Project>
+      <Name>Unity.TextMeshPro</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.XR.ARSubsystems.Editor.csproj">
-      <Project>{A1312267-B16F-9918-F9D5-8686E295741D}</Project>
+      <Project>{B47DCD08-14DB-2A09-3083-FB239E2F34B3}</Project>
       <Name>Unity.XR.ARSubsystems.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.XR.ARAnalytics.Editor.csproj">
-      <Project>{50D3A3D4-F5F8-ECE9-5A7B-375ACF16A1FD}</Project>
-      <Name>Unity.XR.ARAnalytics.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.Interaction.Toolkit.csproj">
-      <Project>{5B62024D-E4F4-2B68-E127-8079B2F75A18}</Project>
-      <Name>Unity.XR.Interaction.Toolkit</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.EditorCoroutines.Editor.csproj">
-      <Project>{07C5E9DE-FBA6-DA89-D535-7F7404D89D46}</Project>
-      <Name>Unity.EditorCoroutines.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj">
-      <Project>{A9F3D4B4-C292-A1E3-BE81-DE62B92B8080}</Project>
+      <Project>{10F6CFF3-ABE5-32E3-D93C-FF7B1EEE27D7}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.OpenXR.Editor.csproj">
-      <Project>{E5D94C4C-1D03-A802-35ED-32E11834C98F}</Project>
+      <Project>{DB9B6DCA-2FE5-D82A-3DF7-7F9EAB343479}</Project>
       <Name>Unity.XR.OpenXR.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Mathematics.csproj">
-      <Project>{28FFB84E-4978-011D-D10D-F6EF7C761C9E}</Project>
-      <Name>Unity.Mathematics</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.ARFoundation.Editor.csproj">
-      <Project>{A1620C73-E782-55D3-F825-5274A16D0A9F}</Project>
-      <Name>Unity.XR.ARFoundation.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.Settings.Editor.csproj">
-      <Project>{4410F79A-C00E-6D31-2804-BAB956A2C91D}</Project>
+      <Project>{2222ABF6-D7AB-D44E-B59A-9B1650C8BF91}</Project>
       <Name>Unity.Settings.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Analytics.Editor.csproj">
-      <Project>{B5834454-801B-98E0-1A70-0A15BAA0DC64}</Project>
-      <Name>Unity.XR.Interaction.Toolkit.Analytics.Editor</Name>
+    <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.csproj">
+      <Project>{0FA3DFD3-D11A-59FF-4BEC-ADCA211BC191}</Project>
+      <Name>Unity.RenderPipelines.Universal.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.Hands.Editor.csproj">
-      <Project>{EB654F68-0AB5-D864-85F4-485092F5158A}</Project>
+      <Project>{03BA2C67-F855-B09C-FB11-A7AAEA6A972B}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Samples.Hands.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.XR.OpenXR.Features.MetaQuestSupport.csproj">
-      <Project>{C47F49BD-61B8-5EC5-8DE5-D8B12182A9DF}</Project>
-      <Name>Unity.XR.OpenXR.Features.MetaQuestSupport</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Burst.Editor.csproj">
-      <Project>{6FCA769E-4568-2E94-BB0B-C20F8C984C7E}</Project>
-      <Name>Unity.Burst.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.XR.Simulation.csproj">
-      <Project>{FD2DA435-B678-B45A-8DFF-0BDCF7C0F4B0}</Project>
+      <Project>{8C79D597-A9E2-7B67-0EBB-B5CF9A7BB0D8}</Project>
       <Name>Unity.XR.Simulation</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.OpenXR.csproj">
-      <Project>{13559514-9967-EB53-246C-16AEDFB6126D}</Project>
+      <Project>{CD5BF697-CEFD-AA6C-B496-2274442C01C6}</Project>
       <Name>Unity.XR.OpenXR</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Burst.csproj">
-      <Project>{820DF9C6-53A2-E0F9-A4E4-3E29E41DFD3E}</Project>
-      <Name>Unity.Burst</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
-      <Project>{5F8AA44C-ABB9-D678-3B49-10E4C09A7531}</Project>
-      <Name>Unity.VisualStudio.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Tutorials.Core.csproj">
-      <Project>{D80AEC61-66E4-2AC0-BD0A-9D8EBDC4A8BE}</Project>
-      <Name>Unity.Tutorials.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.Hands.csproj">
-      <Project>{3C0B1AA2-56D7-256A-F631-2841DDFA72DE}</Project>
-      <Name>Unity.XR.Interaction.Toolkit.Samples.Hands</Name>
+    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj">
+      <Project>{9C574F9F-1655-FC0D-3297-5E94D116D708}</Project>
+      <Name>Unity.RenderPipelines.Core.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.CoreUtils.Editor.csproj">
-      <Project>{F8BAA2A7-D2F4-B110-E46B-1486F6F165DF}</Project>
+      <Project>{4A86D430-B454-626E-5825-26277988A768}</Project>
       <Name>Unity.XR.CoreUtils.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.SpatialTracking.csproj">
-      <Project>{8332DA23-CC26-B402-E4E3-58F9F72E8039}</Project>
+      <Project>{A1563131-83F5-6306-86A0-6C6C60F4FA17}</Project>
       <Name>UnityEditor.SpatialTracking</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Universal.2D.Runtime.csproj">
+      <Project>{36670F91-5A92-E466-C215-2D9D24498240}</Project>
+      <Name>Unity.RenderPipelines.Universal.2D.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.InputSystem.ForUI.csproj">
+      <Project>{6305F8B2-9286-1737-6128-22CBD4AA1C56}</Project>
+      <Name>Unity.InputSystem.ForUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{D714741D-A6E9-6D7A-E9EF-74420A7DFE43}</Project>
+      <Name>UnityEditor.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Searcher.Editor.csproj">
+      <Project>{B01D9170-381E-CEA8-6C1E-C04564A99D5D}</Project>
+      <Name>Unity.Searcher.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Rider.Editor.csproj">
+      <Project>{FA512688-1CFF-D378-E656-80B54837063E}</Project>
+      <Name>Unity.Rider.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.OpenXR.Features.OculusQuestSupport.csproj">
+      <Project>{575D447C-A42E-73EC-81E8-6EBCD07DA4D2}</Project>
+      <Name>Unity.XR.OpenXR.Features.OculusQuestSupport</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.ARFoundation.InternalUtils.Editor.csproj">
+      <Project>{12AEFC1C-564A-C353-131F-8CA5FB1E8739}</Project>
+      <Name>Unity.XR.ARFoundation.InternalUtils.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipeline.Universal.ShaderLibrary.csproj">
+      <Project>{0B1A1E06-E81E-D1A3-AE0A-B8982BFB1A6A}</Project>
+      <Name>Unity.RenderPipeline.Universal.ShaderLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Universal.Shaders.csproj">
+      <Project>{359B61F7-5357-33FC-FC20-729B6447ABC6}</Project>
+      <Name>Unity.RenderPipelines.Universal.Shaders</Name>
+    </ProjectReference>
+    <ProjectReference Include="Extensions.Unity.PlayerPrefsEx.csproj">
+      <Project>{DA1685DB-0AE8-840F-5215-004DC760D1C0}</Project>
+      <Name>Extensions.Unity.PlayerPrefsEx</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj">
+      <Project>{5BCEC865-0202-F019-56D7-EF136FADC288}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.csproj">
+      <Project>{755FA6EC-8775-FE05-2896-94F24AB248C2}</Project>
+      <Name>Unity.XR.OpenXR.Features.RuntimeDebugger.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.Shared.csproj">
+      <Project>{1632C38C-2989-8C6D-5C5C-B7E580939692}</Project>
+      <Name>Unity.RenderPipelines.Core.Runtime.Shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.Editor.csproj">
+      <Project>{29EF41C7-A608-56FF-6459-392F088888A9}</Project>
+      <Name>Unity.Timeline.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.Editor.Shared.csproj">
+      <Project>{42FA4188-3937-FD97-697C-CFB08851A2B7}</Project>
+      <Name>Unity.RenderPipelines.Core.Editor.Shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.csproj">
+      <Project>{01DCAC89-8403-7690-261D-9DC4424071B5}</Project>
+      <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.csproj">
+      <Project>{CCF85803-1A0C-B4CF-28E9-39390C9E4073}</Project>
+      <Name>UnityEngine.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.CodeAnalysis.Analyzers_Unity.csproj">
+      <Project>{569263C2-6AC7-A704-484C-4AD2EDA901AF}</Project>
+      <Name>Microsoft.CodeAnalysis.Analyzers_Unity</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Mathematics.Editor.csproj">
+      <Project>{1F09A920-E004-9872-D4FD-3CD22B300F6B}</Project>
+      <Name>Unity.Mathematics.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.ARFoundation.csproj">
+      <Project>{6BF7EFF8-5AB1-9CC0-D838-DF8C2D9EDF19}</Project>
+      <Name>Unity.XR.ARFoundation</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.XR.LegacyInputHelpers.csproj">
+      <Project>{7E7860AF-2BA6-358D-8E43-EE97D800FF1C}</Project>
+      <Name>UnityEditor.XR.LegacyInputHelpers</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Hands.Analytics.Hooks.Editor.csproj">
+      <Project>{D4191E5C-5350-A9F4-B861-0495E2E86DFA}</Project>
+      <Name>Unity.XR.Hands.Analytics.Hooks.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.ARSubsystems.csproj">
+      <Project>{00EBE73B-1312-CBEF-946D-F933E1A0B42C}</Project>
+      <Name>Unity.XR.ARSubsystems</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Collections.csproj">
+      <Project>{FBA4D3F7-B20B-6741-1C66-547F7DEDC39D}</Project>
+      <Name>Unity.Collections</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.AndroidOpenXR.Editor.csproj">
+      <Project>{2BC0728F-A536-B61F-3F37-5FB864635705}</Project>
+      <Name>Unity.XR.AndroidOpenXR.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Rendering.LightTransport.Editor.csproj">
+      <Project>{A6F278ED-C52A-A9E5-C1FD-F73698F9860A}</Project>
+      <Name>Unity.Rendering.LightTransport.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Management.Editor.csproj">
+      <Project>{9C7F2C19-5F08-A33D-8E00-15CDB1D3B90A}</Project>
+      <Name>Unity.XR.Management.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.ARFoundation.VisualScripting.csproj">
+      <Project>{FE26522C-7A24-3CF6-665E-48ADAA18A8C4}</Project>
+      <Name>Unity.XR.ARFoundation.VisualScripting</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.XR.LegacyInputHelpers.csproj">
+      <Project>{8E80361E-F3F8-AE6A-62D8-710E66FCCF41}</Project>
+      <Name>UnityEngine.XR.LegacyInputHelpers</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.InternalAPIEngineBridge.007.csproj">
+      <Project>{56559DCD-EB65-A0B3-5AAC-9B5CE3C23186}</Project>
+      <Name>Unity.InternalAPIEngineBridge.007</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.csproj">
+      <Project>{C44C40EE-0F34-50C9-310B-BF5E41793ACF}</Project>
+      <Name>Unity.XR.OpenXR.Features.OculusQuestSupport.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Multiplayer.Center.Common.csproj">
+      <Project>{927D2B4F-2197-F33C-8F6C-83120E558752}</Project>
+      <Name>Unity.Multiplayer.Center.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.OpenXR.Features.MetaQuestSupport.Editor.csproj">
+      <Project>{41690932-2CBF-4C13-B9C7-DA7482700F00}</Project>
+      <Name>Unity.XR.OpenXR.Features.MetaQuestSupport.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="com.IvanMurzak.Unity.MCP.Editor.csproj">
+      <Project>{64D4A32A-8B35-5887-C34A-7A27EBB4605D}</Project>
+      <Name>com.IvanMurzak.Unity.MCP.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj">
+      <Project>{1C8D0989-A140-74FE-925F-BE9267338441}</Project>
+      <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.ARAnalytics.Editor.csproj">
+      <Project>{38A6BBD5-DD80-5E4B-5EEB-774C6E305F32}</Project>
+      <Name>Unity.XR.ARAnalytics.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.csproj">
+      <Project>{386E57B2-F6DF-4C23-EAB0-0496C601BFD3}</Project>
+      <Name>Unity.XR.Interaction.Toolkit</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.EditorCoroutines.Editor.csproj">
+      <Project>{EE76BF63-C434-F2D9-D59B-807B02D761D9}</Project>
+      <Name>Unity.EditorCoroutines.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Mathematics.csproj">
+      <Project>{2289A09A-47F0-9D7A-D697-5540239D2271}</Project>
+      <Name>Unity.Mathematics</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.Editor.csproj">
+      <Project>{A1A76DB3-CF9D-BE6A-D86E-03A774B0D8E5}</Project>
+      <Name>Unity.RenderPipelines.Core.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.ARFoundation.Editor.csproj">
+      <Project>{E5AD620F-81B5-EA49-5894-35FECA8DBF79}</Project>
+      <Name>Unity.XR.ARFoundation.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Analytics.Editor.csproj">
+      <Project>{10227815-3E71-1AA5-3490-8AC051128C82}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Analytics.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.OpenXR.Features.MetaQuestSupport.csproj">
+      <Project>{AA290354-E721-CAC2-3D14-801BFBAC70B0}</Project>
+      <Name>Unity.XR.OpenXR.Features.MetaQuestSupport</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
+      <Project>{9382BE42-D011-189C-5133-7887EE1DD81D}</Project>
+      <Name>Unity.TextMeshPro.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Burst.Editor.csproj">
+      <Project>{6EE0B03E-D9BF-8849-98EA-49063445F686}</Project>
+      <Name>Unity.Burst.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Burst.csproj">
+      <Project>{1F2BA93E-C48E-ACF6-7762-50FC81750D86}</Project>
+      <Name>Unity.Burst</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
+      <Project>{F75C3AB8-4812-1A87-6BD4-A7DBB9439DB4}</Project>
+      <Name>Unity.VisualStudio.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Tutorials.Core.csproj">
+      <Project>{772831E6-69FA-A79F-ACE3-21916B5AD58B}</Project>
+      <Name>Unity.Tutorials.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.Hands.csproj">
+      <Project>{F20F4E8F-3BEB-FD60-D8D1-3C2D8E99ED0A}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.Hands</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Rendering.LightTransport.Runtime.csproj">
+      <Project>{3DC1E101-D03E-A8C4-C07D-236E4F3640FB}</Project>
+      <Name>Unity.Rendering.LightTransport.Runtime</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.InputSystem.csproj">
-      <Project>{3179BA93-2B2C-14D9-1E8F-68B0CFB4ACC1}</Project>
+      <Project>{E1C2C1B8-924B-8E72-F6B9-A53C45630EB1}</Project>
       <Name>Unity.InputSystem</Name>
     </ProjectReference>
   </ItemGroup>
